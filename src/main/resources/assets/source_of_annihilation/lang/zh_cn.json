@@ -1,0 +1,15 @@
+{
+  "key.source_of_annihilation.v": "V",
+  "item.source_of_annihilation.sile": "Sile",
+  "item.source_of_annihilation.aaaaaaaaaa": "bbb",
+  "key.source_of_annihilation.g": "G",
+  "entity.source_of_annihilation.god": "God",
+  "item.source_of_annihilation.source_of_annihilation": "湮灭之源",
+  "text.text": "永恒终焉的具现，万法归墟的残响  握此刃者，非持兵戈，乃执天命。刃锋所及非金石木革，而是存在本身的经纬。当第一缕湮灭之息拂过锋刃，因果的纺线开始崩解，现实的帷幕悄然褪色。  此器无铭无文，因其存在本身即为最古老的铭文——镌刻在维度胎膜上的创世悖论。刃身流淌的并非金属光泽，而是被囚禁的微型奇点，每一个刹那都有万千世界在其中诞生又归于虚无。  传说在诸界尚未分野之时，原初古神欲窥永恒真貌，却只窥见一片绝对的「无」。惊骇之余，祂将这「无」的映像锻造成型，便是此刃。故而刃锋过处，非是破坏，而是「回归」——让万物回归其尚未诞生时的本然状态。  凡俗所见，不过一刃。智者所见，乃是整个可观测宇宙的「否定态」。持此器者，勿言征服，只道施恩——施予万物那最宁静、最平等、最彻底的终极恩典：湮灭。  「吾非弑神，只是予神以安眠。」——末代持刃者遗言",
+  "item.source_of_annihilation.god_spawn_egg": "God Spawn Egg",
+  "tab.soa":"湮灭之源",
+  "text.removedmode": "§a[模式切换] 已切换到移除模式",
+  "text.killedmode": "§c[模式切换] 已切换到击杀模式",
+  "text.resetmode": "§e[模式重置] 已重置为移除模式",
+  "item.source_of_annihilation.converter": "模式转换器"
+}

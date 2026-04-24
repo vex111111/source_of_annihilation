@@ -1,0 +1,10 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "source_of_annihilation:item/a"
+  },
+  "loader": "source_of_annihilation:cosmic",
+  "cosmic": {
+    "mask": "source_of_annihilation:item/infinity_sword_mask"
+  }
+}

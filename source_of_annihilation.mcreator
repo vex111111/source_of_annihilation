@@ -1,0 +1,946 @@
+{
+  "mod_elements": [
+    {
+      "name": "SourceOfAnnihilationDangWuPinZaiBeiBaoZhongMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "source_of_annihilation_dang_wu_pin_zai_bei_bao_zhong_mei_ke_fa_sheng",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sss",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/SssProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Az",
+      "type": "code",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "az",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/Az.java"
+        ]
+      }
+    },
+    {
+      "name": "SourceOfAnnihilationDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "source_of_annihilation_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/SourceOfAnnihilationDangYouJianDianJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Remove",
+      "type": "code",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "remove",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/Remove.java"
+        ]
+      }
+    },
+    {
+      "name": "NoSpawnList",
+      "type": "code",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_spawn_list",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/NoSpawnList.java"
+        ]
+      }
+    },
+    {
+      "name": "ProtectList",
+      "type": "code",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "protect_list",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/ProtectList.java"
+        ]
+      }
+    },
+    {
+      "name": "NoSpawn",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/NoSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoDeathGui",
+      "type": "code",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_death_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/NoDeathGui.java"
+        ]
+      }
+    },
+    {
+      "name": "NoGui",
+      "type": "code",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/NoGui.java"
+        ]
+      }
+    },
+    {
+      "name": "SourceOfAnnihilation",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "source_of_annihilation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/source_of_annihilation/models/item/source_of_annihilation.json",
+          "src/main/java/net/mcreator/sourceofannihilation/item/SourceOfAnnihilationItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SourceCommand",
+      "type": "command",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "source_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/command/SourceCommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "AddNoSpawnCommand",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_no_spawn_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/AddNoSpawnCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClearNoSpawnCommand",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_no_spawn_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/ClearNoSpawnCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClearAllNoSpawnCommand",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_all_no_spawn_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/ClearAllNoSpawnCommandProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AddProtectCommand",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_protect_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/AddProtectCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClearProtectCommand",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_protect_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/ClearProtectCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClearAllProtectCommand",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_all_protect_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/ClearAllProtectCommandProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PrintNoSpawn",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "print_no_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/PrintNoSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrintProtect",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "print_protect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/PrintProtectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AaaaaaaaaaDangShiTiBeiGaiWuPinJiZhong",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaaaaaaaaa_dang_shi_ti_bei_gai_wu_pin_ji_zhong",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/AaaaaaaaaaDangShiTiBeiGaiWuPinJiZhongProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aaaaaaaaaa",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaaaaaaaaa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/item/AaaaaaaaaaItem.java",
+          "src/main/resources/assets/source_of_annihilation/models/item/aaaaaaaaaa.json"
+        ]
+      }
+    },
+    {
+      "name": "God",
+      "type": "livingentity",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "god",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/entity/GodEntity.java",
+          "src/main/resources/assets/source_of_annihilation/models/item/god_spawn_egg.json",
+          "src/main/java/net/mcreator/sourceofannihilation/client/renderer/GodRenderer.java",
+          "src/main/resources/data/source_of_annihilation/forge/biome_modifier/god_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SbList",
+      "type": "code",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sb_list",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/SbList.java"
+        ]
+      }
+    },
+    {
+      "name": "V",
+      "type": "keybind",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "v",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/network/VMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "GAnXiaAnJianShi",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_an_xia_an_jian_shi",
+      "metadata": {
+        "return_type": "entity",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "G",
+      "type": "keybind",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/network/GMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "XianCheng",
+      "type": "code",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "xian_cheng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/XianCheng.java"
+        ]
+      }
+    },
+    {
+      "name": "Cnm",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cnm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/CnmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Notp",
+      "type": "code",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "notp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/Notp.java"
+        ]
+      }
+    },
+    {
+      "name": "ProtectListFactory",
+      "type": "code",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "protect_list_factory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/ProtectListFactory.java"
+        ]
+      }
+    },
+    {
+      "name": "SileDangWuPinZaiBeiBaoZhongMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sile_dang_wu_pin_zai_bei_bao_zhong_mei_ke_fa_sheng",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sile",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/item/SileItem.java",
+          "src/main/resources/assets/source_of_annihilation/models/item/sile.json"
+        ]
+      }
+    },
+    {
+      "name": "ExtendsDeathScreen",
+      "type": "code",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "extends_death_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/ExtendsDeathScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "AaaaaaaaaaDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaaaaaaaaa_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/AaaaaaaaaaDangYouJianDianJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Asdawdadw",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asdawdadw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/AsdawdadwProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Util",
+      "type": "code",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "util",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/Util.java"
+        ]
+      }
+    },
+    {
+      "name": "Tooltip",
+      "type": "code",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/Tooltip.java"
+        ]
+      }
+    },
+    {
+      "name": "ResetchunksRangeCommand",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resetchunks_range_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/ResetchunksRangeCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StopThreadCommand",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_thread_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/StopThreadCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoFireCommand",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_fire_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/NoFireCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoEffectCommand",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_effect_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/NoEffectCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoCapsCommand",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_caps_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/NoCapsCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClearcompoundtagCommand",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "clearcompoundtag_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/ClearcompoundtagCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoHungryCommand",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_hungry_command",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EventBusCommand",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "event_bus_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/procedures/EventBusCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death",
+      "type": "code",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/Death.java"
+        ]
+      }
+    },
+    {
+      "name": "ExtendsEntityLookup",
+      "type": "code",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "extends_entity_lookup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sourceofannihilation/ExtendsEntityLookup.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "fy",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "invul",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "sb",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "resetrange",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "stopthread",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "noeffect",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "nofire",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "nocaps",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "nohungry",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "key.source_of_annihilation.v": "V",
+      "item.source_of_annihilation.sile": "Sile",
+      "item.source_of_annihilation.aaaaaaaaaa": "bbb",
+      "key.source_of_annihilation.g": "G",
+      "entity.source_of_annihilation.god": "God",
+      "item.source_of_annihilation.source_of_annihilation": "湮灭之源",
+      "text.text": "The Embodiment of Eternal Finality, The Echo of All-Laws\u0027 Return to Void  To wield this blade is not to bear a weapon, but to hold destiny itself. Its edge cuts not through metal or wood, but through the very fabric of existence. When the first breath of annihilation whispers against its sharpness, the threads of causality begin to unravel, and the curtain of reality fades silently.  This artifact bears no inscription, for its mere existence is the most ancient scripture—a paradox of creation carved upon the membrane of dimensions. What flows across its surface is not metallic luster, but captive micro-singularities, within which countless worlds are born and return to nothingness every instant.  Legend speaks of a time before the realms were divided, when the Primordial Deity sought to glimpse eternal truth, only to behold an absolute \"Nothingness.\" In dread, It forged this vision into form—this very blade. Thus, where its edge passes, there is no destruction, only \"Return\"—the restoration of all things to their primordial state of non-being.  The mundane see but a blade. The wise perceive the \"negation-state\" of the entire observable cosmos. Those who bear this instrument speak not of conquest, but of granting grace—bestowing upon all existence the most serene, most equal, most absolute final benediction: Annihilation.  \"I do not slay gods; I merely grant them slumber.\" — Last words of the Final Bearer ",
+      "item.source_of_annihilation.god_spawn_egg": "God Spawn Egg"
+    },
+    "zh_cn": {
+      "key.source_of_annihilation.v": "V",
+      "item.source_of_annihilation.sile": "Sile",
+      "item.source_of_annihilation.aaaaaaaaaa": "bbb",
+      "key.source_of_annihilation.g": "G",
+      "entity.source_of_annihilation.god": "God",
+      "item.source_of_annihilation.source_of_annihilation": "湮灭之源",
+      "text.text": "永恒终焉的具现，万法归墟的残响  握此刃者，非持兵戈，乃执天命。刃锋所及非金石木革，而是存在本身的经纬。当第一缕湮灭之息拂过锋刃，因果的纺线开始崩解，现实的帷幕悄然褪色。  此器无铭无文，因其存在本身即为最古老的铭文——镌刻在维度胎膜上的创世悖论。刃身流淌的并非金属光泽，而是被囚禁的微型奇点，每一个刹那都有万千世界在其中诞生又归于虚无。  传说在诸界尚未分野之时，原初古神欲窥永恒真貌，却只窥见一片绝对的「无」。惊骇之余，祂将这「无」的映像锻造成型，便是此刃。故而刃锋过处，非是破坏，而是「回归」——让万物回归其尚未诞生时的本然状态。  凡俗所见，不过一刃。智者所见，乃是整个可观测宇宙的「否定态」。持此器者，勿言征服，只道施恩——施予万物那最宁静、最平等、最彻底的终极恩典：湮灭。  「吾非弑神，只是予神以安眠。」——末代持刃者遗言",
+      "item.source_of_annihilation.god_spawn_egg": "God Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "source_of_annihilation",
+    "modName": "Source of Annihilation",
+    "version": "1.0.3",
+    "author": "vex,mcreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sourceofannihilation",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300451120
+}

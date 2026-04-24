@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="source_of_annihilation"
+version="1.0.3"
+displayName="Source of Annihilation"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="vex,mcreator"
+
+[[dependencies.source_of_annihilation]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[accessTransformers]]
+file="META-INF/accesstransformer.cfg"
+
+
+
+

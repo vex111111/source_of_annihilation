@@ -1,0 +1,78 @@
+buildscript {
+    repositories {
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+    }
+}
+
+plugins {
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'java' // 添加 java 插件
+}
+
+version = '1.0.3'
+group = 'com.yourname.modid'
+archivesBaseName = 'source_of_annihilation'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    copyIdeResources = true
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    // Minecraft 和 Mixin 的依赖
+    minecraft 'net.minecraftforge:forge:1.20.1-47.2.0'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+apply plugin: 'org.spongepowered.mixin'
+
+mixin {
+    add sourceSets.main, "SourceofAnnihilation.refmap.json"
+
+    config "SourceofAnnihilation.mixins.json"
+    debug.export = true
+}
+
+apply from: 'mcreator.gradle'

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "source_of_annihilation:item/converter"
+  }
+}

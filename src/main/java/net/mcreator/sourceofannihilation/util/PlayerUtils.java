@@ -1,0 +1,17 @@
+package net.mcreator.sourceofannihilation.util;
+
+import net.minecraft.world.entity.player.Player;
+
+/**
+ * PlayerUtil
+ *
+ * @author cnlimiter
+ * @version 1.0
+ * @description
+ * @date 2024/3/28 12:58
+ */
+public class PlayerUtils {
+    public static boolean isPlayingMode(Player player) {
+        return !player.isCreative() && !player.isSpectator();
+    }
+}
